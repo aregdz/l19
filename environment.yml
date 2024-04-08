@@ -1,10 +1,10 @@
-name: 17
+name: l19
 channels:
   - defaults
 dependencies:
  - python=3.12.1 
- - numpy
- - pandas 
  - pip
- - scipy 
- - tensorflow
+ - isort
+ - black
+ - pre-commit
+ - flake8
